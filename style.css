@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 254, 254);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.squares{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+#top-left{
+    height: 50px;
+    width: 75px;
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+#top-right{
+    height: 50px;
+    width: 75px;
+
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+#left{
+    height: 50px;
+    width: 75px;
+
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+#bottom-left{
+    height: 40px;
+    width: 75px;
+ 
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+#bottom-right{
+    height: 40px;
+    width: 75px;
+ 
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+#right{
+    height: 50px;
+    width: 75px;
+   
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+#bottom{
+    height: 20px;
+    width: 150px;
+
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+.darkblue{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(0, 72, 255);
+    border-radius: 5px;
+    scale: 0;
+}
+
+.lightblue{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(71, 122, 253);
+    border-radius: 5px;
+    scale: 0;
+}
+
+.grey{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(175, 175, 175);
+    border-radius: 5px;
+    scale: 0; 
+}
+
+.outline{
+    height: 20px;
+    width: 20px;
+    border: 2px solid rgb(0, 72, 255);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    scale: 0;
+}
+
+
+
+/* .acmlogo{
+    height: 200px;
+    width: 200px;
+    rotate: 45deg;
+    background-color:rgb(0, 221, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px 5px rgb(0, 195, 255);
+}
+h2{
+    text-align: center;
+    rotate: -45deg;
+    font-size: 30px;
+}  */
+
+
